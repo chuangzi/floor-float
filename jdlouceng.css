@@ -1,0 +1,92 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol { list-style: none; }
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+
+.mokuai {
+    width: 590px;
+    background-color: #AEAEAE;
+}
+
+.mokuai .mt {
+    padding: 10px;
+    background-color: #F00;
+    color: #FFF;
+}
+
+.mokuai .mt .title {
+    float: left;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.mokuai .mt .qrcode {
+    vertical-align: -4px;
+}
+
+.mokuai .mt .tags {
+    float: right;
+}
+
+.mokuai .mt .tags a {
+    color: #FFF;
+    text-decoration: none;
+    border: 1px solid #b48787;
+    padding: 0 10px;
+    background-color: hsla(0,0%,100%,.2);
+}
+
+.mokuai .mc {
+    padding: 10px;
+}
+
+.mokuai .mc .floor1 .left {
+    width: 163px;
+    height: 260px;
+    background-color: #FF0;
+    float: left;
+}
+
+.mokuai .mc .floor1 .right {
+    float: right;
+    width: 396px;
+    background-color: #00F;
+    height: 260px;
+}
+
+.mokuai .mc .floor1 .right .item {
+    width: 198px;
+    height: 130px;
+    float: left;
+    background-color: #0FF;
+}
+
+.mokuai .mc .floor2 {
+    height: 130px;
+    padding-top: 10px;
+}
+
+.mokuai .mc .floor2 .item {
+    float: left;
+    width: 183px;
+    height: 130px;
+    margin-right: 10px;
+}
+
+.mokuai .mc .floor2 .item:last-child {
+    margin-right: 0;
+}
+.mokuai .mc .floor3 {
+    margin-top: 10px;
+}
+
+.mokuai .mc .floor3 a {
+    margin: 0 10px;
+}
+
+
